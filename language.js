@@ -8,6 +8,17 @@ function myFunction() {
 
 
 }
+
+function clearmi() {
+ 
+
+  document.getElementById("demo").value =""
+    
+    
+
+}
+
+
 var odd_numbers = []
 
 
@@ -15,7 +26,7 @@ function dividir(j){
  var array= j
  const res=array.split(" ")
  res.forEach(translate)
- document.getElementById("demo").innerHTML =odd_numbers;
+ document.getElementById("demo").value =odd_numbers;
 console.log(`${odd_numbers}`)
 
 }
