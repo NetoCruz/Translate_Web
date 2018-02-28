@@ -38,6 +38,22 @@ function translate(str){
 
 }
 
+$('input[value="1"]').on('change', function() {
+    $('label[id="feedback"]').text("idioma");
+    $(botones).css({ "background-color": "#533A71" });
+});
+
+$('input[value="2"]').on('change', function() {
+    $('label[id="feedback"]').text("idioma2");
+    $(botones).css({ "background-color": "#6184D8" });
+   
+});
+
+$('input[value="3"]').on('change', function() {
+    $('label[id="feedback"]').text("idioma3");
+    $(botones).css({ "background-color": "#51A3A3" });
+});
+
 
 
   

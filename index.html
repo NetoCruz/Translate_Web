@@ -4,6 +4,7 @@
 	<title>Mi Language</title>
     <link rel="stylesheet" type="text/css" href="./index.css">
     <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<header id="head">
@@ -11,6 +12,18 @@
 	</header>
 
 	<section id="botones">
+		<section id="selector">
+			<div class="radios">
+    <input type="radio"  name="rGroup" value="1" id="r1" checked="checked" />
+    <label class="radio" for="r1" id="l1"></label>
+    <input type="radio" name="rGroup" value="2" id="r2" />
+    <label class="radio" for="r2" id="l2"></label>
+    <input type="radio" name="rGroup" value="3" id="r3" />
+    <label class="radio" for="r3" id="l3"></label>
+</div>
+<label id="feedback">Idioma</label>
+			
+		</section>
 		<input type="text" id="myText" placeholder="Ingrese Texto">
 
 	<p>Presiona el botón para traducir</p>
